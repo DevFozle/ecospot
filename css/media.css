@@ -1,0 +1,273 @@
+
+@media(min-width:1200px) and (max-width:1400px){
+/*======featured part media======*/
+.featured-inner-img-icon i {
+	height: 35px;
+	width: 35px;
+	line-height: 35px;
+}
+.collection-content h3 {
+	padding-right: 478px;
+}
+
+}
+
+
+
+@media(min-width:992px) and (max-width:1199.98px){
+
+
+/*======ban feature part media======*/
+.ban.feature {
+	margin-top: -27px;
+}
+/*======ban feature part media======*/
+#offer {
+	padding-bottom: 0;
+}
+/*======product category part media======*/
+.remove{
+    margin-top: 16px;
+}
+/*======featured part media======*/
+.featured-inner-img-icon i {
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+}
+
+.collection-content h3 {
+	padding-right: 356px;
+}
+
+
+
+
+}
+
+@media(min-width:768px) and (max-width:991.99px){
+
+
+.header {
+    margin-top: 80px;
+}   
+/*======banner part media======*/
+.banner-content h1 {
+    font-size: 60px;
+}
+.banner-content p{
+    padding-right: 213px;
+}
+/*======banner part media======*/
+/*======ban feature part media======*/
+.ban.feature {
+	margin-top: -27px;
+}
+.featured-inner-img-icon i {
+	height: 30px;
+	width: 30px;
+	line-height: 30px;
+}
+/*======ban feature part media======*/
+
+
+/*======filter part media======*/
+.arrival{
+    margin-top: 20px;
+}
+
+.py-5 {
+	padding-top: 1rem !important;
+	padding-bottom: 1rem !important;
+}
+.filter-more{
+    padding-top: 20px;
+}
+
+#offer {
+	padding-bottom: 0;
+}
+/*======filter part media======*/
+/*======product category part media======*/
+.top-inner-content {
+	padding-left: 0px;
+}
+.crating{
+    margin-bottom: 20px;
+}
+/*======product category part media======*/
+.remove{
+    margin-top: 0;
+}
+
+}
+
+
+
+
+
+@media(min-width:576px) and (max-width:767px){
+.header {
+    margin-top: 65px;
+}
+
+/*======banner part media======*/
+.ban-btn {
+    margin-top: 0px;
+}
+.banner-content h1 {
+    font-size: 30px;
+}
+
+.banner-content h4 {
+    font-size: 24px;
+}
+.ban-btn .btn {
+    padding: 0px 10px;
+}
+.great{
+    padding-top: 15px;
+}
+/*======banner part media======*/
+
+
+/*======ban feature part media======*/
+.ban.feature {
+	margin-top: 35px;
+}
+.featured-inner-img-icon i {
+	height: 35px;
+	width: 35px;
+	line-height: 35px;
+}
+/*======ban feature part media======*/
+/*======collection part media======*/
+
+.py-5 {
+	padding-top: 1rem !important;
+	padding-bottom: 1rem !important;
+}
+.filter-more{
+    padding-top: 20px;
+}
+/*======collection part media======*/
+/*======product category part media======*/
+.top-inner-content {
+	padding-left: 0px;
+}
+.crating{
+    margin-bottom: 20px;
+}
+.remove{
+    margin-top: 20px;
+}
+/*======product category part media======*/
+
+.blog-pit{
+    text-align: justify;
+}
+
+
+/*=======product page==========*/
+#product-page .filter-btn ul li {
+    margin-bottom: 30px;
+}
+#product-page .arith{
+    margin-top:0px;
+}
+.filter-btn ul li a {
+    padding: 5px 15px;
+}
+/*=======product page==========*/
+}
+@media(max-width:575.98px){
+.header {
+    margin-top: 65px;
+}
+.navbar-toggler-icon {
+	color: #EC7A5C;
+}
+/*======Top-bar part media======*/
+#topbar {
+	display: none;
+}
+/*======Top-bar part media======*/
+/*======ban feature part media======*/
+.ban.feature {
+	margin-top: 35px;
+}
+/*======ban feature part media======*/
+/*======Top-bar part media======*/
+.banner-content p {
+	display: none;
+}
+.ban-btn {
+	margin-top: 0px;
+}
+.banner-content h1 {
+	font-size: 16px;
+}
+
+.banner-content h4 {
+	font-size: 24px;
+}
+.ban-btn .btn {
+	padding: 0px 10px;
+}
+.great{
+    padding-top: 15px;
+}
+/*======collection part media======*/
+.arrival{
+    margin-top: 35px;
+}
+
+.py-5 {
+	padding-top: 1rem !important;
+	padding-bottom: 1rem !important;
+}
+.filter-more{
+    padding-top: 20px;
+}
+/*======collection part media======*/
+/*======latest offer part media======*/
+.offer-part h3 {
+	padding-right: 0;
+}
+
+/*======latest offer part media======*/
+/*======product category part media======*/
+.top-inner-content {
+	padding-left: 0px;
+}
+.crating{
+    margin-bottom: 20px;
+}
+.remove{
+    margin-top: 20px;
+}
+/*======product category part media======*/
+/*======new collection part media======*/
+.collection-content h3 {
+	padding-right: 60px;
+}
+.featured-inner-img-icon i {
+	height: 35px;
+	width: 35px;
+	line-height: 35px;
+}
+/*======new collection part media======*/
+/*======Top-bar part media======*/
+
+
+
+/*=======product page============*/
+#product-page .filter-btn ul li {
+    margin-bottom: 30px;
+}
+#product-page .arith{
+    margin-top:0px;
+}
+/*=======product page============*/
+
+}

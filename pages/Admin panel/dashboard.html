@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="MHS">
+    <title>Dashboard</title>
+    <!--google font-->
+    <link href="http://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+    <!--common style-->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/lobicard/css/lobicard.css" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+    <link href="vendor/themify-icons/css/themify-icons.css" rel="stylesheet">
+    <link href="vendor/weather-icons/css/weather-icons.min.css" rel="stylesheet">
+    <!--easy pie chart-->
+    <link href="vendor/jquery-easy-pie-chart/jquery.easy-pie-chart.css" rel="stylesheet">
+    <!--custom css-->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body class="app header-fixed left-sidebar-light left-sidebar-fixed right-sidebar-fixed right-sidebar-overlay right-sidebar-hidden">
+    <!--Navbar part start-->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="../../index.html">
+              ECOSPOT
+          </a>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../contact/index.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../contact/index.html">Contact</a>
+              </li>
+            </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <!--Navbar part end-->
+    <section id="breadcrumb">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="bread text-center">
+                        <p>
+                            <a href="../../index.html">Home</a>
+                            >
+                            <a href="#"><span>Dashboard</span></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--===========app body start===========-->
+    <div class="app-body">
+        <!--main contents start-->
+        <main class="main-content">
+            <!--page title start-->
+            <div class="page-title">
+                <h4 class="mb-0"> Dashboard</h4>
+                <ol class="breadcrumb mb-0 pl-0 pt-1 pb-0">
+                    <li class="breadcrumb-item"><a href="#" class="default-color">Home</a></li>
+                    <li class="breadcrumb-item active">Blank Page</li>
+                </ol>
+            </div>
+            <!--page title end-->
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="card card-shadow mb-4">
+                            <div class="card-header">
+                                <div class="card-title">
+                                    Products Report
+                                </div>
+                            </div>
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th class="border-0 ">ID #</th>
+                                            <th class="border-0">Buyers</th>
+                                            <th class="border-0">Product Name</th>
+                                            <th class="border-0">Quantity</th>
+                                            <th class="border-0">Price</th>
+                                            <th class="border-0">Status</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>John Doe</td>
+                                            <td>15" Mackbook Pro</td>
+                                            <td>1</td>
+                                            <td>$1999</td>
+                                            <td>
+                                                <span class="badge badge-pill badge-primary">Processing</span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>Szzad Tas</td>
+                                            <td>iPhone X</td>
+                                            <td>1</td>
+                                            <td>$1299</td>
+                                            <td>
+                                                <span class="badge badge-pill badge-success">Delivered</span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td>Tnisha Sabrin</td>
+                                            <td>27" iMack SSD</td>
+                                            <td>1</td>
+                                            <td>$1499</td>
+                                            <td>
+                                                <span class="badge badge-pill badge-danger">Cancel</span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>4</td>
+                                            <td>Keny Rose</td>
+                                            <td>iPad Mini</td>
+                                            <td>3</td>
+                                            <td>$2199</td>
+                                            <td>
+                                                <span class="badge badge-pill badge-warning">Pending</span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>5</td>
+                                            <td>Jass Bery</td>
+                                            <td>15" Mackbook Pro</td>
+                                            <td>1</td>
+                                            <td>$1999</td>
+                                            <td>
+                                                <span class="badge badge-pill badge-info">Processing</span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>6</td>
+                                            <td>MH Geek</td>
+                                            <td>Mac mini pro</td>
+                                            <td>1</td>
+                                            <td>$799</td>
+                                            <td>
+                                                <span class="badge badge-pill badge-success">Shipped</span>
+                                            </td>
+                                        </tr>
+
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card card-shadow mb-4">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="mb-3 col-sm-12  pt-3">
+                                        <strong>General results</strong>
+                                    </div>
+                                    <div class="col-xl-6  col pt-4 pb-3">
+                                        <div id="sparkline_1"> </div>
+                                        <div class="mt-2">Followers 12.2322</div>
+                                    </div>
+                                    <div class="col-xl-6  col">
+                                        <div class="ep_1" data-percent="48"><span>48</span>%</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card card-shadow mb-4">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="mb-3 col-sm-12 pt-3">
+                                        <strong>Ratings by category</strong>
+                                    </div>
+                                    <div class="col-xl-6 col pt-4 pb-3">
+                                        <div id="sparkline_2"> </div>
+                                        <div class="mt-2">Followers 5.2121</div>
+                                    </div>
+                                    <div class="col-xl-6 col">
+                                        <div class="ep_2" data-percent="75"><span>75</span>%</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--state widget start-->
+                <div class="row">
+                    <div class="col-xl-3 col-sm-6 mb-4">
+                        <div class="card bg-primary border-0 text-light pt-3 pb-3 h-100">
+                            <div class="card-body ">
+                                <div class="row">
+                                    <div class=" col-3">
+                                        <i class="icon-people f30"></i>
+                                    </div>
+                                    <div class=" col-9">
+                                        <h6 class="m-0 text-light">New Users</h6>
+                                        <p class="f12 mb-0">32 New Users</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-sm-6 mb-4">
+                        <div class="card bg-info border-0 text-light pt-3 pb-3 h-100">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class=" col-3">
+                                        <i class="icon-basket-loaded f30"></i>
+                                    </div>
+                                    <div class=" col-9">
+                                        <h6 class="m-0 text-light">Order Placed</h6>
+                                        <p class="f12 mb-0">123 New Order Placed</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-sm-6 mb-4">
+                        <div class="card bg-warning border-0 text-light pt-3 pb-3 h-100">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class=" col-3">
+                                        <i class=" icon-handbag f30"></i>
+                                    </div>
+                                    <div class=" col-9">
+                                        <h6 class="m-0 text-light">Delivery </h6>
+                                        <p class="f12 mb-0">54 New Delivery</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-sm-6 mb-4">
+                        <div class="card bg-danger border-0 text-light pt-3 pb-3 h-100">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class=" col-3">
+                                        <i class=" icon-badge f30"></i>
+                                    </div>
+                                    <div class=" col-9">
+                                        <h6 class="m-0 text-light">Monthly Profits</h6>
+                                        <p class="f12 mb-0">$9887 This Month Profit
+                                            <span class="float-right text-success"> </span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--state widget end-->
+
+                <!-- state start-->
+                <div class="row">
+                    <div class=" col-sm-12">
+                        <div class="card card-shadow mb-4">
+                            <div class="card-header">
+                                <div class="card-title">
+                                    Multiple Statistics
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div id="multi-sates">
+                                    <div id="multi-states-container" style="height: 350px">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- state end-->
+
+                <!--state widget start-->
+                <div class="row">
+                    <div class="col-xl-3 col-sm-6 mb-4">
+                        <div class="card card-shadow">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-3">
+                                        <span class="bg-warning text-center wb-icon-box">
+                                            <i class="icon-people text-light f24"></i>
+                                        </span>
+                                    </div>
+                                    <div class="col-9">
+                                        <h6 class="mt-1 mb-0">New Users</h6>
+                                        <p class="f12 mb-0">32 New Users</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-sm-6 mb-4">
+                        <div class="card card-shadow ">
+                            <div class="card-body ">
+                                <div class="row">
+                                    <div class="col-3">
+                                        <span class="bg-info text-center wb-icon-box">
+                                            <i class="icon-basket-loaded text-light f24"></i>
+                                        </span>
+                                    </div>
+                                    <div class="col-9">
+                                        <h6 class="mt-1 mb-0">Order Placed</h6>
+                                        <p class="f12 mb-0">123 New Order Placed</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-sm-6 mb-4">
+                        <div class="card card-shadow">
+                            <div class="card-body ">
+                                <div class="row">
+                                    <div class="col-3">
+                                        <span class="bg-success text-center wb-icon-box">
+                                            <i class="icon-handbag text-light f24"></i>
+                                        </span>
+                                    </div>
+                                    <div class="col-9">
+                                        <h6 class="mt-1 mb-0">Delivery </h6>
+                                        <p class="f12 mb-0">54 New Delivery</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-sm-6 mb-4">
+                        <div class="card card-shadow">
+                            <div class="card-body ">
+                                <div class="row">
+                                    <div class="col-3">
+                                        <span class="bg-danger text-center wb-icon-box">
+                                            <i class="icon-badge text-light f24"></i>
+                                        </span>
+                                    </div>
+                                    <div class="col-9">
+                                        <h6 class="mt-1 mb-0">Monthly Profits</h6>
+                                        <p class="f12 mb-0">$9887 This Month Profit
+                                            <span class="float-right text-success"> </span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--state widget end-->
+
+                <div class="row ">
+                    <div class="col-xl-4 col-sm-12">
+                        <div class="card card-shadow mb-4">
+                            <div class="card-header">
+                                <div class="card-title">
+                                    New Users
+                                    <div class="btn-group float-right task-list-action">
+                                        <div class="dropdown ">
+                                            <a href="#" class="btn btn-transparent default-color dropdown-hover p-0"
+                                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <i class=" icon-options"></i>
+                                            </a>
+                                            <div class="dropdown-menu dropdown-menu-right ">
+                                                <a class="dropdown-item" href="#"> <i
+                                                        class="icon-user text-info pr-2"></i> Assign</a>
+                                                <a class="dropdown-item" href="#"><i
+                                                        class="icon-close text-danger pr-2"></i> Remove</a>
+                                                <a class="dropdown-item" href="#"><i
+                                                        class="icon-note text-warning pr-2"></i> Done</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="media mb-4">
+                                    <img class="align-self-center mr-3 rounded-circle" src="img/user1.png"
+                                        alt=" " style="width: 50px; height: 50px;">
+                                    <div class="media-body">
+                                        <p class="mb-0"><strong class="">John Doe</strong></p>
+                                        <span>john_doe@testmail.com</span>
+                                    </div>
+                                    <div class="btn-group float-right task-list-action">
+                                        <div class="dropdown ">
+                                            <a href="#" class="btn btn-transparent gray-color dropdown-hover p-0"
+                                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <i class=" icon-options"></i>
+                                            </a>
+                                            <div class="dropdown-menu dropdown-menu-right ">
+                                                <a class="dropdown-item" href="#"> <i
+                                                        class="icon-user text-info pr-2"></i> Follow</a>
+                                                <a class="dropdown-item" href="#"> <i
+                                                        class=" icon-user-unfollow text-danger pr-2"></i> Un Follow</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="media mb-4">
+                                    <img class="align-self-center mr-3 rounded-circle" src="img/user2.png"
+                                        alt=" " style="width: 50px; height: 50px;">
+                                    <div class="media-body">
+                                        <p class="mb-0"><strong class="">Tnisha Sabrin</strong></p>
+                                        <span>tnisha_s@testmail.com</span>
+                                    </div>
+                                    <div class="btn-group float-right task-list-action">
+                                        <div class="dropdown ">
+                                            <a href="#" class="btn btn-transparent gray-color dropdown-hover p-0"
+                                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <i class=" icon-options"></i>
+                                            </a>
+                                            <div class="dropdown-menu dropdown-menu-right ">
+                                                <a class="dropdown-item" href="#"> <i
+                                                        class="icon-user text-info pr-2"></i> Follow</a>
+                                                <a class="dropdown-item" href="#"> <i
+                                                        class=" icon-user-unfollow text-danger pr-2"></i> Un Follow</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="media mb-4">
+                                    <img class="align-self-center mr-3 rounded-circle" src="img/user3.png"
+                                        alt=" " style="width: 50px; height: 50px;">
+                                    <div class="media-body">
+                                        <p class="mb-0"><strong class="">Tasi Szzd</strong></p>
+                                        <span>tasi_szd@testmail.com</span>
+                                    </div>
+                                    <div class="btn-group float-right task-list-action">
+                                        <div class="dropdown ">
+                                            <a href="#" class="btn btn-transparent gray-color dropdown-hover p-0"
+                                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <i class=" icon-options"></i>
+                                            </a>
+                                            <div class="dropdown-menu dropdown-menu-right ">
+                                                <a class="dropdown-item" href="#"> <i
+                                                        class="icon-user text-info pr-2"></i> Follow</a>
+                                                <a class="dropdown-item" href="#"> <i
+                                                        class=" icon-user-unfollow text-danger pr-2"></i> Un Follow</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="media mb-4">
+                                    <img class="align-self-center mr-3 rounded-circle" src="img/user4.png"
+                                        alt=" " style="width: 50px; height: 50px;">
+                                    <div class="media-body">
+                                        <p class="mb-0"><strong class="">Keny Rose</strong></p>
+                                        <span>keny_ose@testmail.com</span>
+                                    </div>
+                                    <div class="btn-group float-right task-list-action">
+                                        <div class="dropdown ">
+                                            <a href="#" class="btn btn-transparent gray-color dropdown-hover p-0"
+                                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <i class=" icon-options"></i>
+                                            </a>
+                                            <div class="dropdown-menu dropdown-menu-right ">
+                                                <a class="dropdown-item" href="#"> <i
+                                                        class="icon-user text-info pr-2"></i> Follow</a>
+                                                <a class="dropdown-item" href="#"> <i
+                                                        class=" icon-user-unfollow text-danger pr-2"></i> Un Follow</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="media mb-4">
+                                    <img class="align-self-center mr-3 rounded-circle" src="img/user5.png"
+                                        alt=" " style="width: 50px; height: 50px;">
+                                    <div class="media-body">
+                                        <p class="mb-0"><strong class="">MH Geek</strong></p>
+                                        <span>mh_g@testmail.com</span>
+                                    </div>
+                                    <div class="btn-group float-right task-list-action">
+                                        <div class="dropdown ">
+                                            <a href="#" class="btn btn-transparent gray-color dropdown-hover p-0"
+                                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <i class=" icon-options"></i>
+                                            </a>
+                                            <div class="dropdown-menu dropdown-menu-right ">
+                                                <a class="dropdown-item" href="#"> <i
+                                                        class="icon-user text-info pr-2"></i> Follow</a>
+                                                <a class="dropdown-item" href="#"> <i
+                                                        class=" icon-user-unfollow text-danger pr-2"></i> Un Follow</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="media ">
+                                    <img class="align-self-center mr-3 rounded-circle" src="img/user2.png"
+                                        alt=" " style="width: 50px; height: 50px;">
+                                    <div class="media-body">
+                                        <p class="mb-0"><strong class="">Tnisha Sabrin</strong></p>
+                                        <span>tnisha_s@testmail.com</span>
+                                    </div>
+                                    <div class="btn-group float-right task-list-action">
+                                        <div class="dropdown ">
+                                            <a href="#" class="btn btn-transparent gray-color dropdown-hover p-0"
+                                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <i class=" icon-options"></i>
+                                            </a>
+                                            <div class="dropdown-menu dropdown-menu-right ">
+                                                <a class="dropdown-item" href="#"> <i
+                                                        class="icon-user text-info pr-2"></i> Follow</a>
+                                                <a class="dropdown-item" href="#"> <i
+                                                        class=" icon-user-unfollow text-danger pr-2"></i> Un Follow</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-sm-6">
+                        <div class="card card-shadow mb-4">
+                            <div class="card-header">
+                                <div class="card-title">
+                                    Activity Log
+                                    <div class="btn-group float-right task-list-action">
+                                        <div class="dropdown ">
+                                            <a href="#" class="btn btn-transparent default-color dropdown-hover p-0"
+                                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <i class=" icon-options"></i>
+                                            </a>
+                                            <div class="dropdown-menu dropdown-menu-right ">
+                                                <a class="dropdown-item" href="#"> <i
+                                                        class="icon-user text-info pr-2"></i> Assign</a>
+                                                <a class="dropdown-item" href="#"><i
+                                                        class="icon-close text-danger pr-2"></i> Remove</a>
+                                                <a class="dropdown-item" href="#"><i
+                                                        class="icon-note text-warning pr-2"></i> Done</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="baseline baseline-border">
+                                    <div class="baseline-list">
+                                        <div class="baseline-info">
+                                            <div><a href="#" class="default-color"><strong>John Tasi</strong></a>
+                                                Prepare for the Meeting <span
+                                                    class="badge badge-pill badge-success">status</span></div>
+                                            <span class="text-muted">10:00 PM Sat, 10 Jan 2018</span>
+                                        </div>
+                                    </div>
+                                    <div class="baseline-list baseline-border baseline-primary">
+                                        <div class="baseline-info">
+                                            <div>Video conference to client</div>
+                                            <span class="text-muted">05:00 PM Sun, 02 Feb 2018</span>
+                                        </div>
+                                    </div>
+                                    <div class="baseline-list  baseline-border baseline-success">
+                                        <div class="baseline-info">
+                                            <div><a href="#" class="default-color"><strong>Tnisha</strong></a> Submit a
+                                                blog post <a href="#" class="">best admin template in 2018.</a></div>
+                                            <span class="text-muted">10:00 PM Sat, 10 Jan 2018</span>
+                                        </div>
+                                    </div>
+                                    <div class="baseline-list  baseline-border baseline-warning">
+                                        <div class="baseline-info">
+                                            <div><a href="#" class="default-color"><strong>New Request</strong></a> 10
+                                                user request to approve or remove</div>
+                                            <span class="text-muted">10:00 PM Sat, 10 Jan 2018</span>
+                                        </div>
+                                    </div>
+                                    <div class="baseline-list  baseline-border baseline-info">
+                                        <div class="baseline-info">
+                                            <div><a href="#" class="default-color"><strong>Mark Henry</strong></a> added
+                                                your friend list now</div>
+                                            <span class="text-muted">10:00 PM Sat, 10 Jan 2018</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-sm-6">
+                        <div class="card card-shadow mb-4">
+                            <div class="card-header text-white bg-success border-0">
+                                <div class="media p-4">
+                                    <img class="align-self-center mr-3 rounded-circle" src="img/user.png"
+                                        alt="John Doe" style="width: 64px; height: 64px;">
+                                    <div class="media-body">
+                                        <p class="f18 mb-0"><strong class="">John Doe</strong></p>
+                                        <p>john_doe@testmail.com</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="quick-links-grid">
+                                    <a href="#" class="ql-grid-item">
+                                        <i class="icon-layers text-primary"></i>
+                                        <span class="ql-grid-title">Recent Activity</span>
+                                    </a>
+                                    <a href="#" class="ql-grid-item">
+                                        <i class=" icon-envelope-open text-success"></i>
+                                        <span class="ql-grid-title">Mail Inbox</span>
+                                    </a>
+                                </div>
+                                <div class="quick-links-grid">
+                                    <a href="#" class="ql-grid-item">
+                                        <i class="ti-files text-warning"></i>
+                                        <span class="ql-grid-title">Message</span>
+                                    </a>
+                                    <a href="#" class="ql-grid-item">
+                                        <i class="icon-bell text-info"></i>
+                                        <span class="ql-grid-title">Notification</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="card-footer text-center bg-white p-4">
+                                <div class="row">
+                                    <div class="col">
+                                        <h4>24</h4>
+                                        <span>Projects</span>
+                                    </div>
+                                    <div class="col">
+                                        <h4>3535</h4>
+                                        <span>Follower</span>
+                                    </div>
+                                    <div class="col">
+                                        <h4>123</h4>
+                                        <span>Following</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!--main contents end-->
+
+        <!--right sidebar start-->
+        <aside class="right-sidebar">
+
+            <!--notification widget start-->
+            <div class="widget">
+                <h3 class="mb-4 widget-title">Notification</h3>
+
+                <div class="notification-list">
+                    <ul class="list-unstyled">
+                        <li>
+                            <div class="nt-thumb mr-3">
+                                <img src="img/n1.png" alt="" />
+                            </div>
+                            <div class="nt-info">
+                                <a href="#" class="nt-title">Diverse Ltd.</a>
+                                <small class="text-muted">2 days ago</small>
+                                <p><a href="#">www.diverse-test.com</a></p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="nt-thumb mr-3">
+                                <img src="img/n3.png" alt="" />
+                            </div>
+                            <div class="nt-info">
+                                <a href="#" class="nt-title">Black Friday Discount Offer</a>
+                                <small class="text-muted">2 days ago</small>
+                                <p>Nam libero tempore cum soluta nobis est eligendi.</p>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="nt-thumb mr-3">
+                                <img src="img/n2.png" alt="" />
+                            </div>
+                            <div class="nt-info">
+                                <a href="#" class="nt-title">Task Failed</a>
+                                <small class="text-muted">2 days ago</small>
+                                <p>Error: Invalid command found ... after [this class]</p>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="nt-thumb mr-3">
+                                <img src="img/n4.png" alt="" />
+                            </div>
+                            <div class="nt-info">
+                                <a href="#" class="nt-title">John Doe</a>
+                                <small class="text-muted">3 days ago</small>
+                                <p>Send you a contact request.</p>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+            <!--notification widget end-->
+
+            <!--Active log widget start-->
+            <div class="widget">
+                <h3 class="mb-4 widget-title">Activity Log</h3>
+                <div class="baseline baseline-border">
+                    <div class="baseline-list">
+                        <div class="baseline-info">
+                            <div><a href="#" class="default-color"><strong>John Tasi</strong></a> Prepare for the
+                                Meeting <span class="badge badge-pill badge-success">status</span></div>
+                            <span class="text-muted">10:00 PM Sat, 10 Jan 2018</span>
+                        </div>
+                    </div>
+                    <div class="baseline-list baseline-border baseline-primary">
+                        <div class="baseline-info">
+                            <div>Video conference to client</div>
+                            <span class="text-muted">05:00 PM Sun, 02 Feb 2018</span>
+                        </div>
+                    </div>
+                    <div class="baseline-list  baseline-border baseline-success">
+                        <div class="baseline-info">
+                            <div><a href="#" class="default-color"><strong>Tnisha</strong></a> Submit a blog post <a
+                                    href="#" class="">best admin template in 2018.</a></div>
+                            <span class="text-muted">10:00 PM Sat, 10 Jan 2018</span>
+                        </div>
+                    </div>
+                    <div class="baseline-list  baseline-border baseline-warning">
+                        <div class="baseline-info">
+                            <div><a href="#" class="default-color"><strong>New Request</strong></a> 10 user request to
+                                approve or remove</div>
+                            <span class="text-muted">10:00 PM Sat, 10 Jan 2018</span>
+                        </div>
+                    </div>
+                    <div class="baseline-list  baseline-border baseline-info">
+                        <div class="baseline-info">
+                            <div><a href="#" class="default-color"><strong>Mark Henry</strong></a> added your friend
+                                list now</div>
+                            <span class="text-muted">10:00 PM Sat, 10 Jan 2018</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Active log widget end-->
+
+            <!--stock widget start-->
+            <div class="widget">
+                <h3 class="mb-4 widget-title">Stocks</h3>
+                <div class="table-responsive">
+                    <table class="table">
+                        <tbody>
+                            <tr>
+                                <td>DOW</td>
+                                <td>1999</td>
+                                <td>
+                                    <span class="badge badge-pill badge-primary">+ 0.10%</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>AAPL</td>
+                                <td>1299</td>
+                                <td>
+                                    <span class="badge badge-pill badge-success">- 0.50%</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>SBUX</td>
+                                <td>1099</td>
+                                <td>
+                                    <span class="badge badge-pill badge-danger">+ 0.20%</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>NKE</td>
+                                <td>2199</td>
+                                <td>
+                                    <span class="badge badge-pill badge-warning">+ 1.25%</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>YOO</td>
+                                <td>999</td>
+                                <td>
+                                    <span class="badge badge-pill badge-info">+ 3.00%</span>
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!--stock widget end-->
+
+        </aside>
+        <!--right sidebar end-->
+
+    </div>
+    <!--===========app body end===========-->
+
+    <!--===========footer start===========-->
+    <footer class="app-footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-8">
+                    2018 © Diverse Admin by MHS
+                </div>
+                <div class="col-4">
+                    <a href="#" class="float-right back-top">
+                        <i class=" ti-arrow-circle-up"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--===========footer end===========-->
+
+
+    <!-- Placed js at the end of the page so the pages load faster -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+    <script src="vendor/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/jquery-ui-touch/jquery.ui.touch-punch-improved.js"></script>
+    <script src="vendor/lobicard/js/lobicard.js"></script>
+    <script class="include" type="text/javascript" src="vendor/jquery.dcjqaccordion.2.7.js"></script>
+    <script src="vendor/jquery.scrollTo.min.js"></script>
+
+    <!--flot chart -->
+    <script src="vendor/flot-chart/jquery.flot.js"></script>
+    <script src="vendor/flot-chart/jquery.flot.tooltip.min.js"></script>
+    <script src="vendor/flot-chart/jquery.flot.resize.js"></script>
+    <script src="vendor/flot-chart/jquery.flot.time.js"></script>
+
+    <!--flot initialization-->
+    <script>
+        // Multiple Statistics
+        var data7_1 = [
+            [1000000, 13],
+            [2000000, 55],
+            [3000000, 198],
+            [4000000, 153],
+            [5000000, 320],
+            [6000000, 220],
+            [7000000, 236]
+        ];
+        var data7_2 = [
+            [1000000, 43],
+            [2000000, 150],
+            [3000000, 80],
+            [4000000, 283],
+            [5000000, 98],
+            [6000000, 125],
+            [7000000, 50]
+        ];
+        $(function () {
+            $.plot($("#multi-sates #multi-states-container"), [{
+                data: data7_1,
+                label: "Page View",
+                lines: {
+                    fill: false
+                }
+            }, {
+                data: data7_2,
+                label: "Online User",
+
+                points: {
+                    show: true
+                },
+                lines: {
+                    show: true
+                },
+                yaxis: 2
+            }
+            ],
+                {
+                    series: {
+                        lines: {
+                            show: true,
+                            fill: true
+                        },
+                        points: {
+                            show: true,
+                            lineWidth: 2,
+                            fill: true,
+                            fillColor: "#ffffff",
+                            symbol: "circle",
+                            radius: 5
+                        },
+                        shadowSize: 0
+                    },
+                    grid: {
+                        hoverable: true,
+                        clickable: true,
+                        tickColor: "#e5ebf8",
+                        borderWidth: 1,
+                        borderColor: "#e5ebf8"
+                    },
+                    colors: ["#36a2f5", "#A768F3"],
+                    tooltip: true,
+                    tooltipOpts: {
+                        defaultTheme: false
+                    },
+                    xaxis: {
+                        mode: "time"
+
+
+                    },
+                    yaxes: [{
+                        /* First y axis */
+                    }, {
+                        /* Second y axis */
+                        position: "right" /* left or right */
+                    }]
+                }
+            );
+        });
+
+    </script>
+
+    <!--sparkline chart-->
+    <script src="vendor/sparkline/jquery.sparkline.js"></script>
+    <script src="vendor/sparkline/sparkline-init.js"></script>
+
+    <!--easy pie chart-->
+    <script src="vendor/jquery-easy-pie-chart/jquery.easy-pie-chart.js"></script>
+    <script src="vendor/jquery-easy-pie-chart/easy-pie-chart-init.js"></script>
+
+    <!--init scripts-->
+    <script src="js/scripts.js"></script>
+
+</body>
+</html>

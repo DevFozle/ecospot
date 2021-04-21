@@ -1,0 +1,1408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecospot</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body id="product-page">
+    <!--Top-bar part start-->
+    <section id="topbar">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-sm-5">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="topbar-left-text">
+                                <p>Welcome to our strore Ecospot</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="left-contact-phone">
+                                <div class="left-contact">
+                                    <i class="fa fa-phone"></i>
+                                    <a href="#">+00182 5678 6900</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-4 ms-auto">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="right-topbar-react text-end">
+                                <i class="fa fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="topbar-login-info text-end">
+                                <i class="fa fa-user"></i>
+                                <a href="pages/Payment Method/index.html"> <span>register</span>/<span>login</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Top-bar part end-->
+    <!--Navbar part start-->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+              ECOSPOT
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><i class="fa fa-list" aria-hidden="true"></i>
+            </span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">About</a>
+              </li>
+              <li class="nav-item">
+                <div class="dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Shop
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="product.html">Product</a></li>
+                  <li><a class="dropdown-item" href="pages/Admin panel/dashboard.html">Dashboard</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="pages/Cart/index.html">Your Cart</a></li>
+                </ul>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/contact/index.html">Contact</a>
+              </li>
+            </ul>
+            <div class="cart-option">
+                <ul>
+                    <li class="search-optn"><a href="pages/Search & Category/index.html"><i class="fa fa-search"></i></a></li>
+                </ul>
+                </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <!--Navbar part end-->
+
+     <!--breadcumb section starts here-->
+     <section>
+      <div class="container">
+        <div class="col-lg-12">
+          <div class="bread-text">
+            <span><a href="index.html">Home</a> <i class="fa fa-chevron-right"></i> Product</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--breadcumb section ends here-->
+     <!--Collection part start-->
+     <section id="collect">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 m-auto">
+            <div class="header text-center">
+              <h2>our top collection</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-8 m-auto">
+            <div class="filter-btn text-center mt-5">
+              <ul>
+                <li><a class="control" data-filter="all">ALL</a></li>
+                <li><a class="control" data-filter=".men">MENS</a></li>
+                <li><a class="control" data-filter=".women">WOMENS</a></li>
+                <li><a class="control" data-filter=".kid">FOR KIDS</a></li>
+                <li><a class="control" data-filter=".gad">GADGET</a></li>
+                <li><a class="control" data-filter=".fur">FURNITURE</a></li>
+                <li><a class="control" data-filter=".glas">GLASS</a></li>
+                <li class="arith"><a class="control" data-filter=".shoe">SHOES</a></li>
+                <li class="arith"><a class="control" data-filter=".cam">CAMERA</a></li>
+                <li class="arith"><a class="control" data-filter=".watch">WATCHES</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row main-filter Azmir pt-5">
+          <div class="col-lg-3 col-sm-6  pt-5  women mix">
+            <div class="filter-img">
+              <img src="images/f1.jpg" alt="images" class="w-100 img-fluid">
+              <div class="sale-section">
+                <p>SALE</p>
+              </div>
+              
+              <div class="filter-img-overlay">
+                <p><a href="#"><a href="#"><i class="fa fa-eye" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-recycle" aria-hidden="true"></i></a></a></p>                     
+              </div>
+            </div>
+            <div class="filter-img-content">
+              <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+              <p><span>110$</span>- 90$</p>
+              <h5>Oversize Cotton Dress</h5>
+              <div class="filter-btn">
+                <a href="#">Add to Cart</a>
+              </div>
+              <div class="color-choice float-start"></div>
+              <div class="color-choice-1 float-start mx-1"></div>
+              <div class="color-choice-2 float-start"></div>
+              <div class="clr"></div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6  pt-5  women mix">
+            <div class="filter-img">
+              <img src="images/f2.jpg" alt="images" class="w-100 img-fluid">
+              <div class="sale-section">
+                <p>SALE</p>
+              </div>
+              
+              <div class="filter-img-overlay">
+                <p><a href="#"><a href="#"><i class="fa fa-eye" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-recycle" aria-hidden="true"></i></a></a></p>                     
+              </div>
+            </div>
+            <div class="filter-img-content">
+              <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+              <p><span>110$</span>- 90$</p>
+              <h5>Oversize Cotton Dress</h5>
+              <div class="filter-btn">
+                <a href="#">Add to Cart</a>
+              </div>
+              <div class="color-choice float-start"></div>
+              <div class="color-choice-1 float-start mx-1"></div>
+              <div class="color-choice-2 float-start"></div>
+              <div class="clr"></div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 pt-5 men mix">
+            <div class="filter-img">
+              <img src="images/f3.jpg" alt="images" class="w-100 img-fluid">
+              <div class="sale-section">
+                <p>SALE</p>
+              </div>
+              
+              <div class="filter-img-overlay">
+                <p><a href="#"><a href="#"><i class="fa fa-eye" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-recycle" aria-hidden="true"></i></a></a></p>                     
+              </div>
+            </div>
+            <div class="filter-img-content">
+              <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+              <p><span>110$</span>- 90$</p>
+              <h5>Oversize Cotton Dress</h5>
+              <div class="filter-btn">
+                <a href="#">Add to Cart</a>
+              </div>
+              <div class="color-choice float-start"></div>
+              <div class="color-choice-1 float-start mx-1"></div>
+              <div class="color-choice-2 float-start"></div>
+              <div class="clr"></div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6  pt-5 women mix">
+            <div class="filter-img">
+              <img src="images/f1.jpg" alt="images" class="w-100 img-fluid">
+              <div class="sale-section">
+                <p>SALE</p>
+              </div>
+              
+              <div class="filter-img-overlay">
+                <p><a href="#"><a href="#"><i class="fa fa-eye" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-recycle" aria-hidden="true"></i></a></a></p>                     
+              </div>
+            </div>
+            <div class="filter-img-content">
+              <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+              <p><span>110$</span>- 90$</p>
+              <h5>Oversize Cotton Dress</h5>
+              <div class="filter-btn">
+                <a href="#">Add to Cart</a>
+              </div>
+              <div class="color-choice float-start"></div>
+              <div class="color-choice-1 float-start mx-1"></div>
+              <div class="color-choice-2 float-start"></div>
+              <div class="clr"></div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6  hair mix py-5">
+            <div class="filter-img">
+              <img src="images/f3.jpg" alt="images" class="w-100 img-fluid">
+              <div class="sale-section">
+                <p>SALE</p>
+              </div>
+              
+              <div class="filter-img-overlay">
+                <p><a href="#"><a href="#"><i class="fa fa-eye" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-recycle" aria-hidden="true"></i></a></a></p>                     
+              </div>
+            </div>
+            <div class="filter-img-content">
+              <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+              <p><span>110$</span>- 90$</p>
+              <h5>Oversize Cotton Dress</h5>
+              <div class="filter-btn">
+                <a href="#">Add to Cart</a>
+              </div>
+              <div class="color-choice float-start"></div>
+              <div class="color-choice-1 float-start mx-1"></div>
+              <div class="color-choice-2 float-start"></div>
+              <div class="clr"></div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 women mix py-5">
+            <div class="filter-img">
+              <img src="images/f6.jpg" alt="images" class="w-100 img-fluid">
+              <div class="sale-section">
+                <p>SALE</p>
+              </div>
+              
+              <div class="filter-img-overlay">
+                <p><a href="#"><a href="#"><i class="fa fa-eye" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-recycle" aria-hidden="true"></i></a></a></p>                     
+              </div>
+            </div>
+            <div class="filter-img-content">
+              <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+              <p><span>110$</span>- 90$</p>
+              <h5>Oversize Cotton Dress</h5>
+              <div class="filter-btn">
+                <a href="#">Add to Cart</a>
+              </div>
+              <div class="color-choice float-start"></div>
+              <div class="color-choice-1 float-start mx-1"></div>
+              <div class="color-choice-2 float-start"></div>
+              <div class="clr"></div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 women mix py-5">
+            <div class="filter-img">
+              <img src="images/f5.jpg" alt="images" class="w-100 img-fluid">
+              <div class="sale-section">
+                <p>SALE</p>
+              </div>
+              
+              <div class="filter-img-overlay">
+                <p><a href="#"><a href="#"><i class="fa fa-eye" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-recycle" aria-hidden="true"></i></a></a></p>                     
+              </div>
+            </div>
+            <div class="filter-img-content">
+              <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+              <p><span>110$</span>- 90$</p>
+              <h5>Oversize Cotton Dress</h5>
+              <div class="filter-btn">
+                <a href="#">Add to Cart</a>
+              </div>
+              <div class="color-choice float-start"></div>
+              <div class="color-choice-1 float-start mx-1"></div>
+              <div class="color-choice-2 float-start"></div>
+              <div class="clr"></div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 women py-5 mix">
+            <div class="filter-img">
+              <img src="images/f2.jpg" alt="images" class="w-100 img-fluid">
+              <div class="sale-section">
+                <p>SALE</p>
+              </div>
+              
+              <div class="filter-img-overlay">
+                <p><a href="#"><a href="#"><i class="fa fa-eye" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-recycle" aria-hidden="true"></i></a></a></p>                     
+              </div>
+            </div>
+            <div class="filter-img-content">
+              <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+              <p><span>110$</span>- 90$</p>
+              <h5>Oversize Cotton Dress</h5>
+              <div class="filter-btn">
+                <a href="#">Add to Cart</a>
+              </div>
+              <div class="color-choice float-start"></div>
+              <div class="color-choice-1 float-start mx-1"></div>
+              <div class="color-choice-2 float-start"></div>
+              <div class="clr"></div>
+            </div>
+          </div>        
+          <div class="col-lg-3 col-sm-6 men py-5 mix">
+            <div class="filter-img">
+              <img src="images/t2.jpg" alt="images" class="w-100 img-fluid">
+              <div class="sale-section">
+                <p>SALE</p>
+              </div>
+              
+              <div class="filter-img-overlay">
+                <p><a href="#"><a href="#"><i class="fa fa-eye" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-recycle" aria-hidden="true"></i></a></a></p>                     
+              </div>
+            </div>
+            <div class="filter-img-content">
+              <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+              <p><span>110$</span>- 90$</p>
+              <h5>Oversize Cotton Dress</h5>
+              <div class="filter-btn">
+                <a href="#">Add to Cart</a>
+              </div>
+              <div class="color-choice float-start"></div>
+              <div class="color-choice-1 float-start mx-1"></div>
+              <div class="color-choice-2 float-start"></div>
+              <div class="clr"></div>
+            </div>
+          </div>        
+          <div class="col-lg-3 col-sm-6 men py-5 mix">
+            <div class="filter-img">
+              <img src="images/t3.jpg" alt="images" class="w-100 img-fluid">
+              <div class="sale-section">
+                <p>SALE</p>
+              </div>
+              
+              <div class="filter-img-overlay">
+                <p><a href="#"><a href="#"><i class="fa fa-eye" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-recycle" aria-hidden="true"></i></a></a></p>                     
+              </div>
+            </div>
+            <div class="filter-img-content">
+              <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+              <p><span>110$</span>- 90$</p>
+              <h5>Oversize Cotton Dress</h5>
+              <div class="filter-btn">
+                <a href="#">Add to Cart</a>
+              </div>
+              <div class="color-choice float-start"></div>
+              <div class="color-choice-1 float-start mx-1"></div>
+              <div class="color-choice-2 float-start"></div>
+              <div class="clr"></div>
+            </div>
+          </div>        
+          <div class="col-lg-3 col-sm-6 men py-5 mix">
+            <div class="filter-img">
+              <img src="images/t4.jpg" alt="images" class="w-100 img-fluid">
+              <div class="sale-section">
+                <p>SALE</p>
+              </div>
+              
+              <div class="filter-img-overlay">
+                <p><a href="#"><a href="#"><i class="fa fa-eye" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-recycle" aria-hidden="true"></i></a></a></p>                     
+              </div>
+            </div>
+            <div class="filter-img-content">
+              <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+              <p><span>110$</span>- 90$</p>
+              <h5>Oversize Cotton Dress</h5>
+              <div class="filter-btn">
+                <a href="#">Add to Cart</a>
+              </div>
+              <div class="color-choice float-start"></div>
+              <div class="color-choice-1 float-start mx-1"></div>
+              <div class="color-choice-2 float-start"></div>
+              <div class="clr"></div>
+            </div>
+          </div>        
+          <div class="col-lg-3 col-sm-6 men py-5 mix">
+            <div class="filter-img">
+              <img src="images/t1.jpg" alt="images" class="w-100 img-fluid">
+              <div class="sale-section">
+                <p>SALE</p>
+              </div>
+              
+              <div class="filter-img-overlay">
+                <p><a href="#"><a href="#"><i class="fa fa-eye" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-recycle" aria-hidden="true"></i></a></a></p>                     
+              </div>
+            </div>
+            <div class="filter-img-content">
+              <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+              <p><span>110$</span>- 90$</p>
+              <h5>Oversize Cotton Dress</h5>
+              <div class="filter-btn">
+                <a href="#">Add to Cart</a>
+              </div>
+              <div class="color-choice float-start"></div>
+              <div class="color-choice-1 float-start mx-1"></div>
+              <div class="color-choice-2 float-start"></div>
+              <div class="clr"></div>
+            </div>
+          </div>        
+          <div class="col-lg-3 col-sm-6 men py-5 mix">
+            <div class="filter-img">
+              <img src="images/t1.jpg" alt="images" class="w-100 img-fluid">
+              <div class="sale-section">
+                <p>SALE</p>
+              </div>
+              
+              <div class="filter-img-overlay">
+                <p><a href="#"><a href="#"><i class="fa fa-eye" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-recycle" aria-hidden="true"></i></a></a></p>                     
+              </div>
+            </div>
+            <div class="filter-img-content">
+              <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+              <p><span>110$</span>- 90$</p>
+              <h5>Oversize Cotton Dress</h5>
+              <div class="filter-btn">
+                <a href="#">Add to Cart</a>
+              </div>
+              <div class="color-choice float-start"></div>
+              <div class="color-choice-1 float-start mx-1"></div>
+              <div class="color-choice-2 float-start"></div>
+              <div class="clr"></div>
+            </div>
+          </div>        
+          <div class="col-lg-3 col-sm-6 kid py-5 mix">
+            <div class="filter-img">
+              <img src="images/k1.jpg" alt="images" class="w-100 img-fluid">
+              <div class="sale-section">
+                <p>SALE</p>
+              </div>
+              
+              <div class="filter-img-overlay">
+                <p><a href="#"><a href="#"><i class="fa fa-eye" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-recycle" aria-hidden="true"></i></a></a></p>                     
+              </div>
+            </div>
+            <div class="filter-img-content">
+              <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+              <p><span>110$</span>- 90$</p>
+              <h5>Oversize Cotton Dress</h5>
+              <div class="filter-btn">
+                <a href="#">Add to Cart</a>
+              </div>
+              <div class="color-choice float-start"></div>
+              <div class="color-choice-1 float-start mx-1"></div>
+              <div class="color-choice-2 float-start"></div>
+              <div class="clr"></div>
+            </div>
+          </div>        
+          <div class="col-lg-3 col-sm-6 kid py-5 mix">
+            <div class="filter-img">
+              <img src="images/k2.jpg" alt="images" class="w-100 img-fluid">
+              <div class="sale-section">
+                <p>SALE</p>
+              </div>
+              
+              <div class="filter-img-overlay">
+                <p><a href="#"><a href="#"><i class="fa fa-eye" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-recycle" aria-hidden="true"></i></a></a></p>                     
+              </div>
+            </div>
+            <div class="filter-img-content">
+              <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+              <p><span>110$</span>- 90$</p>
+              <h5>Oversize Cotton Dress</h5>
+              <div class="filter-btn">
+                <a href="#">Add to Cart</a>
+              </div>
+              <div class="color-choice float-start"></div>
+              <div class="color-choice-1 float-start mx-1"></div>
+              <div class="color-choice-2 float-start"></div>
+              <div class="clr"></div>
+            </div>
+          </div>        
+          <div class="col-lg-3 col-sm-6 kid py-5 mix">
+            <div class="filter-img">
+              <img src="images/k3.jpg" alt="images" class="w-100 img-fluid">
+              <div class="sale-section">
+                <p>SALE</p>
+              </div>
+              
+              <div class="filter-img-overlay">
+                <p><a href="#"><a href="#"><i class="fa fa-eye" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-recycle" aria-hidden="true"></i></a></a></p>                     
+              </div>
+            </div>
+            <div class="filter-img-content">
+              <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+              <p><span>110$</span>- 90$</p>
+              <h5>Oversize Cotton Dress</h5>
+              <div class="filter-btn">
+                <a href="#">Add to Cart</a>
+              </div>
+              <div class="color-choice float-start"></div>
+              <div class="color-choice-1 float-start mx-1"></div>
+              <div class="color-choice-2 float-start"></div>
+              <div class="clr"></div>
+            </div>
+          </div>        
+          <div class="col-lg-3 col-sm-6 kid py-5 mix">
+            <div class="filter-img">
+              <img src="images/k4.jpg" alt="images" class="w-100 img-fluid">
+              <div class="sale-section">
+                <p>SALE</p>
+              </div>
+              
+              <div class="filter-img-overlay">
+                <p><a href="#"><a href="#"><i class="fa fa-eye" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-recycle" aria-hidden="true"></i></a></a></p>                     
+              </div>
+            </div>
+            <div class="filter-img-content">
+              <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+              <p><span>110$</span>- 90$</p>
+              <h5>Oversize Cotton Dress</h5>
+              <div class="filter-btn">
+                <a href="#">Add to Cart</a>
+              </div>
+              <div class="color-choice float-start"></div>
+              <div class="color-choice-1 float-start mx-1"></div>
+              <div class="color-choice-2 float-start"></div>
+              <div class="clr"></div>
+            </div>
+          </div>        
+          <div class="col-lg-3 col-sm-6 kid py-5 mix">
+            <div class="filter-img">
+              <img src="images/k5.jpg" alt="images" class="w-100 img-fluid">
+              <div class="sale-section">
+                <p>SALE</p>
+              </div>
+              
+              <div class="filter-img-overlay">
+                <p><a href="#"><a href="#"><i class="fa fa-eye" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-recycle" aria-hidden="true"></i></a></a></p>                     
+              </div>
+            </div>
+            <div class="filter-img-content">
+              <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+              <p><span>110$</span>- 90$</p>
+              <h5>Oversize Cotton Dress</h5>
+              <div class="filter-btn">
+                <a href="#">Add to Cart</a>
+              </div>
+              <div class="color-choice float-start"></div>
+              <div class="color-choice-1 float-start mx-1"></div>
+              <div class="color-choice-2 float-start"></div>
+              <div class="clr"></div>
+            </div>
+          </div>        
+          <div class="col-lg-3 col-sm-6 gad py-5 mix">
+            <div class="filter-img">
+              <img src="images/gad1.jpg" alt="images" class="w-100 img-fluid">
+              <div class="sale-section">
+                <p>SALE</p>
+              </div>
+              
+              <div class="filter-img-overlay">
+                <p><a href="#"><a href="#"><i class="fa fa-eye" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-recycle" aria-hidden="true"></i></a></a></p>                     
+              </div>
+            </div>
+            <div class="filter-img-content">
+              <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+              <p><span>110$</span>- 90$</p>
+              <h5>Oversize Cotton Dress</h5>
+              <div class="filter-btn">
+                <a href="#">Add to Cart</a>
+              </div>
+              <div class="color-choice float-start"></div>
+              <div class="color-choice-1 float-start mx-1"></div>
+              <div class="color-choice-2 float-start"></div>
+              <div class="clr"></div>
+            </div>
+          </div>        
+          <div class="col-lg-3 col-sm-6 gad py-5 mix">
+            <div class="filter-img">
+              <img src="images/gad2.jpg" alt="images" class="w-100 img-fluid">
+              <div class="sale-section">
+                <p>SALE</p>
+              </div>
+              
+              <div class="filter-img-overlay">
+                <p><a href="#"><a href="#"><i class="fa fa-eye" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-recycle" aria-hidden="true"></i></a></a></p>                     
+              </div>
+            </div>
+            <div class="filter-img-content">
+              <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+              <p><span>110$</span>- 90$</p>
+              <h5>Oversize Cotton Dress</h5>
+              <div class="filter-btn">
+                <a href="#">Add to Cart</a>
+              </div>
+              <div class="color-choice float-start"></div>
+              <div class="color-choice-1 float-start mx-1"></div>
+              <div class="color-choice-2 float-start"></div>
+              <div class="clr"></div>
+            </div>
+          </div>        
+          <div class="col-lg-3 col-sm-6 gad py-5 mix">
+            <div class="filter-img">
+              <img src="images/gad-3.jpg" alt="images" class="w-100 img-fluid">
+              <div class="sale-section">
+                <p>SALE</p>
+              </div>
+              
+              <div class="filter-img-overlay">
+                <p><a href="#"><a href="#"><i class="fa fa-eye" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-recycle" aria-hidden="true"></i></a></a></p>                     
+              </div>
+            </div>
+            <div class="filter-img-content">
+              <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+              <p><span>110$</span>- 90$</p>
+              <h5>Oversize Cotton Dress</h5>
+              <div class="filter-btn">
+                <a href="#">Add to Cart</a>
+              </div>
+              <div class="color-choice float-start"></div>
+              <div class="color-choice-1 float-start mx-1"></div>
+              <div class="color-choice-2 float-start"></div>
+              <div class="clr"></div>
+            </div>
+          </div>        
+          <div class="col-lg-3 col-sm-6 fur py-5 mix">
+            <div class="filter-img">
+              <img src="images/fur1.jpg" alt="images" class="w-100 img-fluid">
+              <div class="sale-section">
+                <p>SALE</p>
+              </div>
+              
+              <div class="filter-img-overlay">
+                <p><a href="#"><a href="#"><i class="fa fa-eye" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-recycle" aria-hidden="true"></i></a></a></p>                     
+              </div>
+            </div>
+            <div class="filter-img-content">
+              <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+              <p><span>110$</span>- 90$</p>
+              <h5>Oversize Cotton Dress</h5>
+              <div class="filter-btn">
+                <a href="#">Add to Cart</a>
+              </div>
+              <div class="color-choice float-start"></div>
+              <div class="color-choice-1 float-start mx-1"></div>
+              <div class="color-choice-2 float-start"></div>
+              <div class="clr"></div>
+            </div>
+          </div>        
+          <div class="col-lg-3 col-sm-6 fur py-5 mix">
+            <div class="filter-img">
+              <img src="images/fur2.jpg" alt="images" class="w-100 img-fluid">
+              <div class="sale-section">
+                <p>SALE</p>
+              </div>
+              
+              <div class="filter-img-overlay">
+                <p><a href="#"><a href="#"><i class="fa fa-eye" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-recycle" aria-hidden="true"></i></a></a></p>                     
+              </div>
+            </div>
+            <div class="filter-img-content">
+              <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+              <p><span>110$</span>- 90$</p>
+              <h5>Oversize Cotton Dress</h5>
+              <div class="filter-btn">
+                <a href="#">Add to Cart</a>
+              </div>
+              <div class="color-choice float-start"></div>
+              <div class="color-choice-1 float-start mx-1"></div>
+              <div class="color-choice-2 float-start"></div>
+              <div class="clr"></div>
+            </div>
+          </div>        
+          <div class="col-lg-3 col-sm-6 fur py-5 mix">
+            <div class="filter-img">
+              <img src="images/fur3.jpg" alt="images" class="w-100 img-fluid">
+              <div class="sale-section">
+                <p>SALE</p>
+              </div>
+              
+              <div class="filter-img-overlay">
+                <p><a href="#"><a href="#"><i class="fa fa-eye" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-recycle" aria-hidden="true"></i></a></a></p>                     
+              </div>
+            </div>
+            <div class="filter-img-content">
+              <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+              <p><span>110$</span>- 90$</p>
+              <h5>Oversize Cotton Dress</h5>
+              <div class="filter-btn">
+                <a href="#">Add to Cart</a>
+              </div>
+              <div class="color-choice float-start"></div>
+              <div class="color-choice-1 float-start mx-1"></div>
+              <div class="color-choice-2 float-start"></div>
+              <div class="clr"></div>
+            </div>
+          </div>        
+          <div class="col-lg-3 col-sm-6 fur py-5 mix">
+            <div class="filter-img">
+              <img src="images/fur4.jpg" alt="images" class="w-100 img-fluid">
+              <div class="sale-section">
+                <p>SALE</p>
+              </div>
+              
+              <div class="filter-img-overlay">
+                <p><a href="#"><a href="#"><i class="fa fa-eye" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-recycle" aria-hidden="true"></i></a></a></p>                     
+              </div>
+            </div>
+            <div class="filter-img-content">
+              <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+              <p><span>110$</span>- 90$</p>
+              <h5>Oversize Cotton Dress</h5>
+              <div class="filter-btn">
+                <a href="#">Add to Cart</a>
+              </div>
+              <div class="color-choice float-start"></div>
+              <div class="color-choice-1 float-start mx-1"></div>
+              <div class="color-choice-2 float-start"></div>
+              <div class="clr"></div>
+            </div>
+          </div>        
+          <div class="col-lg-3 col-sm-6 fur py-5 mix">
+            <div class="filter-img">
+              <img src="images/fur5.jpg" alt="images" class="w-100 img-fluid">
+              <div class="sale-section">
+                <p>SALE</p>
+              </div>
+              
+              <div class="filter-img-overlay">
+                <p><a href="#"><a href="#"><i class="fa fa-eye" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-recycle" aria-hidden="true"></i></a></a></p>                     
+              </div>
+            </div>
+            <div class="filter-img-content">
+              <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+              <p><span>110$</span>- 90$</p>
+              <h5>Oversize Cotton Dress</h5>
+              <div class="filter-btn">
+                <a href="#">Add to Cart</a>
+              </div>
+              <div class="color-choice float-start"></div>
+              <div class="color-choice-1 float-start mx-1"></div>
+              <div class="color-choice-2 float-start"></div>
+              <div class="clr"></div>
+            </div>
+          </div>        
+          <div class="col-lg-3 col-sm-6 glas py-5 mix">
+            <div class="filter-img">
+              <img src="images/gla1.jpg" alt="images" class="w-100 img-fluid">
+              <div class="sale-section">
+                <p>SALE</p>
+              </div>
+              
+              <div class="filter-img-overlay">
+                <p><a href="#"><a href="#"><i class="fa fa-eye" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-recycle" aria-hidden="true"></i></a></a></p>                     
+              </div>
+            </div>
+            <div class="filter-img-content">
+              <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+              <p><span>110$</span>- 90$</p>
+              <h5>Oversize Cotton Dress</h5>
+              <div class="filter-btn">
+                <a href="#">Add to Cart</a>
+              </div>
+              <div class="color-choice float-start"></div>
+              <div class="color-choice-1 float-start mx-1"></div>
+              <div class="color-choice-2 float-start"></div>
+              <div class="clr"></div>
+            </div>
+          </div>        
+          <div class="col-lg-3 col-sm-6 glas py-5 mix">
+            <div class="filter-img">
+              <img src="images/gla2.jpg" alt="images" class="w-100 img-fluid">
+              <div class="sale-section">
+                <p>SALE</p>
+              </div>
+              
+              <div class="filter-img-overlay">
+                <p><a href="#"><a href="#"><i class="fa fa-eye" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-recycle" aria-hidden="true"></i></a></a></p>                     
+              </div>
+            </div>
+            <div class="filter-img-content">
+              <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+              <p><span>110$</span>- 90$</p>
+              <h5>Oversize Cotton Dress</h5>
+              <div class="filter-btn">
+                <a href="#">Add to Cart</a>
+              </div>
+              <div class="color-choice float-start"></div>
+              <div class="color-choice-1 float-start mx-1"></div>
+              <div class="color-choice-2 float-start"></div>
+              <div class="clr"></div>
+            </div>
+          </div>        
+          <div class="col-lg-3 col-sm-6 glas py-5 mix">
+            <div class="filter-img">
+              <img src="images/gla-3.jpg" alt="images" class="w-100 img-fluid">
+              <div class="sale-section">
+                <p>SALE</p>
+              </div>
+              
+              <div class="filter-img-overlay">
+                <p><a href="#"><a href="#"><i class="fa fa-eye" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-recycle" aria-hidden="true"></i></a></a></p>                     
+              </div>
+            </div>
+            <div class="filter-img-content">
+              <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+              <p><span>110$</span>- 90$</p>
+              <h5>Oversize Cotton Dress</h5>
+              <div class="filter-btn">
+                <a href="#">Add to Cart</a>
+              </div>
+              <div class="color-choice float-start"></div>
+              <div class="color-choice-1 float-start mx-1"></div>
+              <div class="color-choice-2 float-start"></div>
+              <div class="clr"></div>
+            </div>
+          </div>        
+          <div class="col-lg-3 col-sm-6 glas py-5 mix">
+            <div class="filter-img">
+              <img src="images/gla-4.jpg" alt="images" class="w-100 img-fluid">
+              <div class="sale-section">
+                <p>SALE</p>
+              </div>
+              
+              <div class="filter-img-overlay">
+                <p><a href="#"><a href="#"><i class="fa fa-eye" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-recycle" aria-hidden="true"></i></a></a></p>                     
+              </div>
+            </div>
+            <div class="filter-img-content">
+              <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+              <p><span>110$</span>- 90$</p>
+              <h5>Oversize Cotton Dress</h5>
+              <div class="filter-btn">
+                <a href="#">Add to Cart</a>
+              </div>
+              <div class="color-choice float-start"></div>
+              <div class="color-choice-1 float-start mx-1"></div>
+              <div class="color-choice-2 float-start"></div>
+              <div class="clr"></div>
+            </div>
+          </div>        
+          <div class="col-lg-3 col-sm-6 shoe py-5 mix">
+            <div class="filter-img">
+              <img src="images/s1.jpg" alt="images" class="w-100 img-fluid">
+              <div class="sale-section">
+                <p>SALE</p>
+              </div>
+              
+              <div class="filter-img-overlay">
+                <p><a href="#"><a href="#"><i class="fa fa-eye" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-recycle" aria-hidden="true"></i></a></a></p>                     
+              </div>
+            </div>
+            <div class="filter-img-content">
+              <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+              <p><span>110$</span>- 90$</p>
+              <h5>Oversize Cotton Dress</h5>
+              <div class="filter-btn">
+                <a href="#">Add to Cart</a>
+              </div>
+              <div class="color-choice float-start"></div>
+              <div class="color-choice-1 float-start mx-1"></div>
+              <div class="color-choice-2 float-start"></div>
+              <div class="clr"></div>
+            </div>
+          </div>        
+          <div class="col-lg-3 col-sm-6 shoe py-5 mix">
+            <div class="filter-img">
+              <img src="images/s2.jpg" alt="images" class="w-100 img-fluid">
+              <div class="sale-section">
+                <p>SALE</p>
+              </div>
+              
+              <div class="filter-img-overlay">
+                <p><a href="#"><a href="#"><i class="fa fa-eye" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-recycle" aria-hidden="true"></i></a></a></p>                     
+              </div>
+            </div>
+            <div class="filter-img-content">
+              <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+              <p><span>110$</span>- 90$</p>
+              <h5>Oversize Cotton Dress</h5>
+              <div class="filter-btn">
+                <a href="#">Add to Cart</a>
+              </div>
+              <div class="color-choice float-start"></div>
+              <div class="color-choice-1 float-start mx-1"></div>
+              <div class="color-choice-2 float-start"></div>
+              <div class="clr"></div>
+            </div>
+          </div>        
+          <div class="col-lg-3 col-sm-6 shoe py-5 mix">
+            <div class="filter-img">
+              <img src="images/s3.jpg" alt="images" class="w-100 img-fluid">
+              <div class="sale-section">
+                <p>SALE</p>
+              </div>
+              
+              <div class="filter-img-overlay">
+                <p><a href="#"><a href="#"><i class="fa fa-eye" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-recycle" aria-hidden="true"></i></a></a></p>                     
+              </div>
+            </div>
+            <div class="filter-img-content">
+              <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+              <p><span>110$</span>- 90$</p>
+              <h5>Oversize Cotton Dress</h5>
+              <div class="filter-btn">
+                <a href="#">Add to Cart</a>
+              </div>
+              <div class="color-choice float-start"></div>
+              <div class="color-choice-1 float-start mx-1"></div>
+              <div class="color-choice-2 float-start"></div>
+              <div class="clr"></div>
+            </div>
+          </div>        
+          <div class="col-lg-3 col-sm-6 shoe py-5 mix">
+            <div class="filter-img">
+              <img src="images/s4.jpg" alt="images" class="w-100 img-fluid">
+              <div class="sale-section">
+                <p>SALE</p>
+              </div>
+              
+              <div class="filter-img-overlay">
+                <p><a href="#"><a href="#"><i class="fa fa-eye" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-recycle" aria-hidden="true"></i></a></a></p>                     
+              </div>
+            </div>
+            <div class="filter-img-content">
+              <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+              <p><span>110$</span>- 90$</p>
+              <h5>Oversize Cotton Dress</h5>
+              <div class="filter-btn">
+                <a href="#">Add to Cart</a>
+              </div>
+              <div class="color-choice float-start"></div>
+              <div class="color-choice-1 float-start mx-1"></div>
+              <div class="color-choice-2 float-start"></div>
+              <div class="clr"></div>
+            </div>
+          </div>        
+          <div class="col-lg-3 col-sm-6 cam py-5 mix">
+            <div class="filter-img">
+              <img src="images/cam1.jpg" alt="images" class="w-100 img-fluid">
+              <div class="sale-section">
+                <p>SALE</p>
+              </div>
+              
+              <div class="filter-img-overlay">
+                <p><a href="#"><a href="#"><i class="fa fa-eye" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-recycle" aria-hidden="true"></i></a></a></p>                     
+              </div>
+            </div>
+            <div class="filter-img-content">
+              <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+              <p><span>110$</span>- 90$</p>
+              <h5>Oversize Cotton Dress</h5>
+              <div class="filter-btn">
+                <a href="#">Add to Cart</a>
+              </div>
+              <div class="color-choice float-start"></div>
+              <div class="color-choice-1 float-start mx-1"></div>
+              <div class="color-choice-2 float-start"></div>
+              <div class="clr"></div>
+            </div>
+          </div>        
+          <div class="col-lg-3 col-sm-6 cam py-5 mix">
+            <div class="filter-img">
+              <img src="images/cam-2.jpg" alt="images" class="w-100 img-fluid">
+              <div class="sale-section">
+                <p>SALE</p>
+              </div>
+              
+              <div class="filter-img-overlay">
+                <p><a href="#"><a href="#"><i class="fa fa-eye" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-recycle" aria-hidden="true"></i></a></a></p>                     
+              </div>
+            </div>
+            <div class="filter-img-content">
+              <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+              <p><span>110$</span>- 90$</p>
+              <h5>Oversize Cotton Dress</h5>
+              <div class="filter-btn">
+                <a href="#">Add to Cart</a>
+              </div>
+              <div class="color-choice float-start"></div>
+              <div class="color-choice-1 float-start mx-1"></div>
+              <div class="color-choice-2 float-start"></div>
+              <div class="clr"></div>
+            </div>
+          </div>        
+          <div class="col-lg-3 col-sm-6 cam py-5 mix">
+            <div class="filter-img">
+              <img src="images/cam-3.jpg" alt="images" class="w-100 img-fluid">
+              <div class="sale-section">
+                <p>SALE</p>
+              </div>
+              
+              <div class="filter-img-overlay">
+                <p><a href="#"><a href="#"><i class="fa fa-eye" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-recycle" aria-hidden="true"></i></a></a></p>                     
+              </div>
+            </div>
+            <div class="filter-img-content">
+              <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+              <p><span>110$</span>- 90$</p>
+              <h5>Oversize Cotton Dress</h5>
+              <div class="filter-btn">
+                <a href="#">Add to Cart</a>
+              </div>
+              <div class="color-choice float-start"></div>
+              <div class="color-choice-1 float-start mx-1"></div>
+              <div class="color-choice-2 float-start"></div>
+              <div class="clr"></div>
+            </div>
+          </div>        
+          <div class="col-lg-3 col-sm-6 cam py-5 mix">
+            <div class="filter-img">
+              <img src="images/cam-4.jpg" alt="images" class="w-100 img-fluid">
+              <div class="sale-section">
+                <p>SALE</p>
+              </div>
+              
+              <div class="filter-img-overlay">
+                <p><a href="#"><a href="#"><i class="fa fa-eye" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-recycle" aria-hidden="true"></i></a></a></p>                     
+              </div>
+            </div>
+            <div class="filter-img-content">
+              <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+              <p><span>110$</span>- 90$</p>
+              <h5>Oversize Cotton Dress</h5>
+              <div class="filter-btn">
+                <a href="#">Add to Cart</a>
+              </div>
+              <div class="color-choice float-start"></div>
+              <div class="color-choice-1 float-start mx-1"></div>
+              <div class="color-choice-2 float-start"></div>
+              <div class="clr"></div>
+            </div>
+          </div>        
+          <div class="col-lg-3 col-sm-6 cam py-5 mix">
+            <div class="filter-img">
+              <img src="images/cam-5.jpg" alt="images" class="w-100 img-fluid">
+              <div class="sale-section">
+                <p>SALE</p>
+              </div>
+              
+              <div class="filter-img-overlay">
+                <p><a href="#"><a href="#"><i class="fa fa-eye" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-recycle" aria-hidden="true"></i></a></a></p>                     
+              </div>
+            </div>
+            <div class="filter-img-content">
+              <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+              <p><span>110$</span>- 90$</p>
+              <h5>Oversize Cotton Dress</h5>
+              <div class="filter-btn">
+                <a href="#">Add to Cart</a>
+              </div>
+              <div class="color-choice float-start"></div>
+              <div class="color-choice-1 float-start mx-1"></div>
+              <div class="color-choice-2 float-start"></div>
+              <div class="clr"></div>
+            </div>
+          </div>        
+          <div class="col-lg-3 col-sm-6 watch py-5 mix">
+            <div class="filter-img">
+              <img src="images/wat1.jpg" alt="images" class="w-100 img-fluid">
+              <div class="sale-section">
+                <p>SALE</p>
+              </div>
+              
+              <div class="filter-img-overlay">
+                <p><a href="#"><a href="#"><i class="fa fa-eye" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-recycle" aria-hidden="true"></i></a></a></p>                     
+              </div>
+            </div>
+            <div class="filter-img-content">
+              <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+              <p><span>110$</span>- 90$</p>
+              <h5>Oversize Cotton Dress</h5>
+              <div class="filter-btn">
+                <a href="#">Add to Cart</a>
+              </div>
+              <div class="color-choice float-start"></div>
+              <div class="color-choice-1 float-start mx-1"></div>
+              <div class="color-choice-2 float-start"></div>
+              <div class="clr"></div>
+            </div>
+          </div>        
+          <div class="col-lg-3 col-sm-6 watch py-5 mix">
+            <div class="filter-img">
+              <img src="images/wat2.jpg" alt="images" class="w-100 img-fluid">
+              <div class="sale-section">
+                <p>SALE</p>
+              </div>
+              
+              <div class="filter-img-overlay">
+                <p><a href="#"><a href="#"><i class="fa fa-eye" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-recycle" aria-hidden="true"></i></a></a></p>                     
+              </div>
+            </div>
+            <div class="filter-img-content">
+              <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+              <p><span>110$</span>- 90$</p>
+              <h5>Oversize Cotton Dress</h5>
+              <div class="filter-btn">
+                <a href="#">Add to Cart</a>
+              </div>
+              <div class="color-choice float-start"></div>
+              <div class="color-choice-1 float-start mx-1"></div>
+              <div class="color-choice-2 float-start"></div>
+              <div class="clr"></div>
+            </div>
+          </div>        
+          <div class="col-lg-3 col-sm-6 watch py-5 mix">
+            <div class="filter-img">
+              <img src="images/wat3.jpg" alt="images" class="w-100 img-fluid">
+              <div class="sale-section">
+                <p>SALE</p>
+              </div>
+              
+              <div class="filter-img-overlay">
+                <p><a href="#"><a href="#"><i class="fa fa-eye" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-recycle" aria-hidden="true"></i></a></a></p>                     
+              </div>
+            </div>
+            <div class="filter-img-content">
+              <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+              <p><span>110$</span>- 90$</p>
+              <h5>Oversize Cotton Dress</h5>
+              <div class="filter-btn">
+                <a href="#">Add to Cart</a>
+              </div>
+              <div class="color-choice float-start"></div>
+              <div class="color-choice-1 float-start mx-1"></div>
+              <div class="color-choice-2 float-start"></div>
+              <div class="clr"></div>
+            </div>
+          </div>        
+          <div class="col-lg-3 col-sm-6 watch py-5 mix">
+            <div class="filter-img">
+              <img src="images/watt-5.jpg" alt="images" class="w-100 img-fluid">
+              <div class="sale-section">
+                <p>SALE</p>
+              </div>
+              
+              <div class="filter-img-overlay">
+                <p><a href="#"><a href="#"><i class="fa fa-eye" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></a></p>
+                <p><a href="#"><a href="#"><i class="fa fa-recycle" aria-hidden="true"></i></a></a></p>                     
+              </div>
+            </div>
+            <div class="filter-img-content">
+              <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+              <p><span>110$</span>- 90$</p>
+              <h5>Oversize Cotton Dress</h5>
+              <div class="filter-btn">
+                <a href="#">Add to Cart</a>
+              </div>
+              <div class="color-choice float-start"></div>
+              <div class="color-choice-1 float-start mx-1"></div>
+              <div class="color-choice-2 float-start"></div>
+              <div class="clr"></div>
+            </div>
+          </div>        
+        </div>
+      </div>
+    </section>
+    <!--Collection part end-->
+    <!--footer part start-->
+    <section id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="footer-logo">
+             <h4>ECOSPOT</h4>
+            </div>
+            <div class="footer-content">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+              <span>t enim ad minim veniam, quis nostrud exercitation ullmco laboris nisi ut aliquip ex ea.aboris nisi ut aliquip ex ea.</span>
+            </div>
+            <div class="footer-icon">
+              <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="footer-second-heading">
+              <h4>Quick Links</h4>
+            </div>
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="footer-second-inner-content">
+                  <p><a href="#">Home</a></p>
+                  <p><a href="#">about-us</a></p>
+                  <p><a href="#">terms and conditions</a></p>
+                  <p><a href="#">Contact us</a></p>
+                  <p><a href="#">FAQ's</a></p>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="footer-second-inner-content">
+                  <p><a href="#">our teachers</a></p>
+                  <p><a href="#">Privacy policy</a></p>
+                  <p><a href="#">Latest news</a></p>
+                  <p><a href="#">success stories</a></p>
+                </div>
+              </div>  
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="footer-third-heading">
+              <h4>Contact Informations</h4>
+            </div>
+            <div class="row">
+              <div class="col-lg-2">
+                <div class="footer-third-icon">
+                  <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                </div>
+              </div>
+              <div class="col-lg-10">
+                <div class="footer-third-icon-content">
+                  <h5>Location</h5>
+                  <p>1234, Parkstreet Avenue, Newyork
+                    America.</p>
+                </div>
+              </div>
+            </div>
+            <div class="row my-3">
+              <div class="col-lg-2">
+                <div class="footer-third-icon">
+                  <a href="#"><i class="fa fa-phone" aria-hidden="true"></i></a>
+                </div>
+              </div>
+              <div class="col-lg-10">
+                <div class="footer-third-icon-content">
+                  <h5>phone</h5>
+                  <p>1234, Parkstreet Avenue, Newyork
+                    America.</p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-2">
+                <div class="footer-third-icon">
+                  <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                </div>
+              </div>
+              <div class="col-lg-10">
+                <div class="footer-third-icon-content">
+                  <h5>email</h5>
+                  <p>ecospot@gmail.com.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+</html>

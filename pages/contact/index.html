@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+    <!--Navbar part start-->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="../../index.html">
+              ECOSPOT
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><i class="fa fa-list" aria-hidden="true"></i>
+            </span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../../index.html">About</a>
+              </li>
+              <li class="nav-item">
+                <div class="dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Shop
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="../../product.html">Product</a></li>
+                  <li><a class="dropdown-item" href="../Admin panel/dashboard.html">Dashboard</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="../Cart/index.html">Your Cart</a></li>
+                </ul>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../../index.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../contact/index.html">Contact</a>
+              </li>
+            </ul>
+            <div class="cart-option">
+                <ul>
+                    <li class="search-optn"><a href="../Search & Category/index.html"><i class="fa fa-search"></i></a></li>
+                </ul>
+                </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <!--Navbar part end-->
+    <section id="breadcrumb">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="bread text-center">
+                        <p>
+                            <a href="../../index.html">Home</a>
+                            >
+                            <a href="#"><span>Contact</span></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!--===================Adresses======================-->
+<section id="address">
+    <div class="container">
+        <div class="row px-0 mx-0">
+            <div class="col-md-4">
+                <div class="Address-item">
+                    <h3> <i class="fa fa-map-marker"></i> Dhaka</h3>
+                    <h5>14/E, Confidence Center, 02 Bayzid Rd, </h5>
+                    <h6>(+880)123456789</h6>
+                    <a href="#">contact123@gmail.com</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="Address-item">
+                    <h3> <i class="fa fa-map-marker"></i> Sylhet</h3>
+                    <h5>14/E, Confidence Center, 02 Bayzid Rd, </h5>
+                    <h6>(+880)123456789</h6>
+                    <a href="#">contact123@gmail.com</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="Address-item">
+                    <h3> <i class="fa fa-map-marker"></i> Rajshahi</h3>
+                    <h5>14/E, Confidence Center, 02 Bayzid Rd, </h5>
+                    <h6>(+880)123456789</h6>
+                    <a href="#">contact123@gmail.com</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--=========================================-->
+<section>
+    <div class="container">
+        <div class="gap"></div>
+    </div>
+</section>
+<!--=========================================-->
+<!--==================================Message==========================-->
+<section id="message">
+    <div class="container">
+        <div class="row ">
+            <div class="col-md-8 m-auto text-center heading">
+                <h2>Keep in touch with us</h2>
+            </div>
+        </div>
+
+        <div class="row msg-form">
+            <p>Your email address will not be published. Required fields are marked <span class="must">*</span></p>
+        </div>
+
+
+         <form action="#" method="POST">
+           <div class="row">
+          <div class="col-md-6">
+              <h6>Name <span class="must">*</span></h6>
+              <input type="text" class="msg-input" id="fname">
+              <div class="err-msg" id="name_err_msg"></div>
+          </div>
+          <div class="col-md-6">
+              <h6>Email <span class="must">*</span></h6>
+              <input type="text" class="msg-input"  id="email">
+              <div class="err-msg" id="email_err_msg"></div>
+          </div>
+
+<div class="col-md-12">
+    <h6>Subject <span class="must">*</span></h6>
+    <input type="text" class="msg-input" id="fsub">
+    <div class="err-msg" id="sub_err_msg"></div>
+</div>
+<div class="col-md-12">
+    <h6>Your Message <span class="must">*</span></h6>
+   <textarea class="msg-input main" id="fmsg"></textarea>
+   <div class="err-msg" id="msg_err_msg"></div>
+</div>
+
+
+<div class="col-md-3">
+        <button type="submit" onclick="return sub()" class="msg-btn">Send Message</button>
+
+</div>
+
+        </div>
+         </form>
+
+
+
+        
+
+    </div>
+
+</section>
+
+ <!--===================map======================-->
+
+ <section id="web-map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.7412834777624!2d90.42170751420052!3d23.792225493095824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c79aaf2bec77%3A0xbdd4c6a68b9cb63c!2sParallaxlogic%20Infotech!5e0!3m2!1sen!2sbd!4v1618080294174!5m2!1sen!2sbd" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+ </section>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+</html>

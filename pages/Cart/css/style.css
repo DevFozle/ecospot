@@ -1,0 +1,213 @@
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.8;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; 
+    -ms-text-size-adjust: 100%;
+}
+html,body {
+    overflow-x: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+ul ol{
+    list-style-type: none;
+}
+
+
+/*=====================================================*/
+#breadcrumb {
+    padding: 20px;
+    background: rgb(255, 255, 255);
+    width: 100%;
+}
+.bread a{
+    color: #53505f;
+    font-size: 25px;
+}
+.bread p{
+    color: #53505f;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.bread a:hover {
+    color: #EC7A5C;
+}
+#top{
+    background-color: #ec7a5c;
+    padding: 30px 0;
+}
+.Cart-head h2 {
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #fff;
+}
+.cart{
+    color: #ec7a5c;
+    font-size: 30px;
+    padding-left: 60px;
+}
+
+.subtotal{
+    width: 170px;
+    height: 40px;
+    line-height: 50px;
+    text-align: center;
+    border: 0;
+    background-color: #ffffff;
+}
+.subtotal h3{
+    font-size: 15px;
+    line-height: 40px;
+    
+}
+
+.cross{
+    position: relative;
+}
+.cross-sign{
+    position: absolute;
+    right: -65px;
+    top: -25px;
+}
+.subtotal span{
+    font-weight: 700;
+}
+/*==============================================*/
+#steps{
+    background-color: #444;
+    
+
+}
+.m-cart{
+    padding-top: 10px;
+    text-align: center;
+    
+}
+.m-text h5{
+    color: #fff;
+    font-size: 15px;
+    padding-right: 48px;
+    display: inline-block;
+    font-weight: 700;
+}
+.activated{
+    background-color: #fff;
+    
+}
+.act h5{
+    color: #444;
+    font-weight: 700;
+}
+.act i {
+	color: #ec7a5c;
+}
+
+/*=====================================cart-list================*/
+#cart-list{
+    padding-top: 40px;
+}
+.menu-text h4 {
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #909090;
+	font-weight: 700;
+}
+.p-img{
+    padding-top: 5px;
+}
+.pi{
+    padding-bottom: 30px;
+}
+.pro-text h4{
+    font-size: 16px;
+    font-weight: bold;
+}
+.pro-text h6{
+    font-size: 14px;
+    color: #909090;
+    padding-right: 35px;
+   
+}
+.amount{
+    padding-top: 20px;
+}
+.amount i{
+    
+    color: #ec7a5c;
+    cursor: pointer;
+}
+.amount h6{
+    display: inline-block;
+    font-weight: bold;
+    padding: 0 13px;
+}
+
+.dollar h6 {
+	color: #ccc;
+	font-size: 14px;
+}
+
+.tc{
+    position: relative;
+}
+.tc h6{
+    color: #444;
+}
+.cut{
+    position: absolute;
+    right: 0;
+    top: 10px;
+    font-size: 24px;
+}
+.promo{
+    background-color: #f1f1f1;
+    padding: 30px 0;
+}
+
+.promo-code{
+    width: 300px;
+    height: 40px;
+    padding-left: 10px;
+}
+
+.promo-btn {
+	padding: 10px 20px;
+	text-transform: uppercase;
+	background-color: #ec7a5c;
+	color: #fff;
+	font-weight: bold;
+	font-size: 14px;
+	border: 0;
+}
+.promo-main{
+    display: inline-block;
+}
+.err-msg {
+    color: red;
+    padding-top: 3px;
+}
+
+.st{
+    padding: 20px 0;
+}
+
+.ns-btn {
+	width: 200px;
+	height: 40px;
+	font-size: 14px;
+	margin: 30px 0;
+	background-color: #ec7a5c;
+	color: #fff;
+	font-weight: bold;
+	border: 0;
+}

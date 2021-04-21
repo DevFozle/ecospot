@@ -1,0 +1,215 @@
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.8;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; 
+    -ms-text-size-adjust: 100%;
+}
+html,body {
+    overflow-x: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+ul ol{
+    list-style-type: none;
+}
+
+
+/*=====================================================*/
+#breadcrumb {
+    padding: 20px;
+    background: rgb(255, 255, 255);
+    width: 100%;
+}
+.bread a{
+    color: #53505f;
+    font-size: 25px;
+}
+.bread p{
+    color: #53505f;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.bread a:hover {
+    color: #EC7A5C;
+}
+#top{
+    background-color: #ec7a5c;
+    padding: 30px 0;
+}
+.Cart-head h2 {
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #fff;
+}
+.cart{
+    color: #ec7a5c;
+    font-size: 30px;
+    padding-left: 60px;
+}
+
+.subtotal{
+    width: 170px;
+    height: 40px;
+    line-height: 50px;
+    text-align: center;
+    border: 0;
+    background-color: #ffffff;
+}
+.subtotal h3{
+    font-size: 15px;
+    line-height: 40px;
+    
+}
+
+.cross{
+    position: relative;
+}
+.cross-sign{
+    position: absolute;
+    right: -65px;
+    top: -25px;
+}
+.subtotal span{
+    font-weight: 700;
+}
+/*==============================================*/
+#steps{
+    background-color: #444;
+    
+
+}
+.m-cart{
+    padding-top: 10px;
+    text-align: center;
+    
+}
+.m-text h5{
+    color: #fff;
+    font-size: 15px;
+    padding-right: 48px;
+    display: inline-block;
+    font-weight: 700;
+}
+.activated{
+    background-color: #fff;
+    
+}
+.act h5{
+    color: #444;
+    font-weight: 700;
+}
+.act i {
+	color: #ec7a5c;
+}
+
+/*=====================================cart-list================*/
+#Payment{
+    padding-top: 100px;
+padding-bottom: 100px;
+}
+.pay-hd h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+.pay-hd h3 span{
+    color: red;
+}
+.p-logo{
+    width: 150px;
+    margin-left: 30px;
+}
+.p-logo2{
+    width: 150px;
+    margin-left: 264px;
+}
+
+
+.pay-bill{
+    padding-top: 40px;
+}
+
+.pay-unique{
+    padding: 10px 0;
+}
+.pt{
+    padding-left: 25px;
+    display: inline-block;
+    font-weight: bold;
+}
+.p-logo3{
+    width: 177px;
+    height: 45px;
+    margin-left: 208px;
+}
+#pay-m{
+    padding-left: 7px;
+}
+.pay-main{
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.pay-type{
+    padding: 10px;
+}
+.pay-info {
+    margin: 10px 0;
+}
+.pay-info h6{
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+}
+.pay-info input{
+    padding-left: 20px;
+    width: 80%;
+    height: 40px;
+    border: none;
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+}
+.secured h5{
+      font-size: 10px;
+      color: #909090;
+      padding-left: 30px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+
+}
+
+.t-after{
+    width: 50%;
+    height: 3px;
+    background-color: #f1f1f1;
+    padding-left: 100px;
+}
+
+.pay-btn button i{
+    padding-left: 10px;
+}
+.pay-btn button {
+	width: 200px;
+	height: 40px;
+	text-align: center;
+	background-color: #ec7a5c;
+	margin-top: 150px;
+	color: #fff;
+	font-weight: bold;
+	border: 0;
+}

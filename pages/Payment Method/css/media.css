@@ -1,0 +1,133 @@
+@media (max-width: 1600px) and (min-width: 1400px) {
+    .cart {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 1399px) and (min-width: 1200px) {
+    .cart {
+        padding-left: 0;
+    }
+}
+@media (max-width: 1199px) and (min-width: 992px) {
+    .cart {
+        padding-left: 0;
+    }
+    .promo-btn {
+        padding: 7px 20px;
+    }
+    .ns-btn {
+        margin-left: -110px;
+    }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+    .act h5 {
+        position: relative;
+        top: -55%;
+        left: 45px;
+    }
+    .act i {
+        position: relative;
+        top: 45%;
+        right: 25px;
+    }
+    .cart {
+        position: relative;
+        top: 45%;
+        right: 35px;
+    }
+    .m-text h5 {
+        position: relative;
+        top: 35%;
+        left: 30px;
+        font-size: 14px;
+    }
+    .menu-text h4 {
+        font-size: 14px;
+    }
+    .promo-btn {
+        padding: 8px 11px;
+        font-size: 14px;
+    }
+    .ns-btn {
+        margin-left: -110px;
+    }
+    .py-3 {
+        padding-top: 0rem !important;
+        padding-bottom: 2rem !important;
+    }
+    .p-logo2 {
+        margin-left: 210px;
+    }
+}
+@media (max-width: 767px) and (min-width: 576px) {
+    .act h5 {
+        position: relative;
+        top: -55%;
+        left: 45px;
+    }
+    .act i {
+        position: relative;
+        top: 45%;
+        right: 100px;
+    }
+    .cart {
+        position: relative;
+        top: 45%;
+        right: 100px;
+    }
+    .m-text h5 {
+        position: relative;
+        top: -55%;
+        left: 45px;
+    }
+    .menu-text {
+        display: none;
+    }
+    .p-logo2 {
+        margin-left: 0px;
+    }
+    .p-logo3 {
+        margin-left: 0px;
+    }
+    .dollar h6 {
+        padding-top: 30px;
+        font-weight: 700;
+    }
+}
+@media (max-width: 575.98px){
+    .act h5 {
+        position: relative;
+        top: -55%;
+        left: 45px;
+    }
+    .act i {
+        position: relative;
+        top: 45%;
+        right: 100px;
+    }
+    .cart {
+        position: relative;
+        top: 45%;
+        right: 100px;
+    }
+    .m-text h5 {
+        position: relative;
+        top: -55%;
+        left: 45px;
+    }
+    .menu-text {
+        display: none;
+    }
+    /* new 1 */
+    .p-logo2 {
+        margin-left: 0px;
+    }
+    .p-logo3 {
+        margin-left: 0px;
+    }
+    .dollar h6 {
+        padding-top: 30px;
+        font-weight: 700;
+    }
+}
